@@ -8,9 +8,9 @@ License:	GPL
 Group:		Themes
 Source0:	%{name}.tar.bz2
 # Source0-md5:	884085e39a8d1ba581a33fcc45581f47
-Buildarch:	noarch
 Requires:	pekwm
 Obsoletes:	pekwm-themes-pack2
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_themesdir	%{_datadir}/%{_dname}/themes
@@ -33,14 +33,13 @@ shade-blank - Tomas Green <green@green.homelinux.net>
 True - regret <trueregret@yahoo.se>
 
 %description -l pl
-23 Ounces of Glass - Orgina³ zrobiony przez: pixelhead, zaadaptowany przez \
-Tilman Sauerbeck <tilman@code-monkey.de>
-Glacier - Orgina³ zrobiony przez: Glacier, zaadaptowany przez cnx <ciano@medgen.univr.it>
-Lave -  Orgina³ zrobiony przez: pixelhead, zaadaptowany przez Joshua Beard <josh@hewbert.com>
+23 Ounces of Glass - Orygina³ zrobiony przez: pixelhead, zaadaptowany przez Tilman Sauerbeck <tilman@code-monkey.de>
+Glacier - Orygina³ zrobiony przez: Glacier, zaadaptowany przez cnx <ciano@medgen.univr.it>
+Lave -  Orygina³ zrobiony przez: pixelhead, zaadaptowany przez Joshua Bearda <josh@hewbert.com>
 QNX-Orange - Joshua Beard <josh@hewbert.com>
-Sedation - Orgina³ zrobiony przez: pixelmoose, zaadaptowany przez Joshua Beard <josh@hewbert.com>
-adept-t - Tomas Green  <green@green.homelinux.net>
-Atlantique - Orgina³ blueCrux, zaadaptowany przez Xumerle Luciano
+Sedation - Orygina³ zrobiony przez: pixelmoose, zaadaptowany przez Joshua Bearda <josh@hewbert.com>
+adept-t - Tomas Green <green@green.homelinux.net>
+Atlantique - Orygina³ blueCrux, zaadaptowany przez Xumerle Luciano
 bb-nyz -  Werner Hartnagel <werner@halesoft.de>
 blueCrux - madKOT <mad_kot@mail.ru>
 bluish -  tompen <tompen@tompa.homelinux.net>
@@ -52,8 +51,6 @@ True - regret <trueregret@yahoo.se>
 
 %prep
 %setup -q -n %{name}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
