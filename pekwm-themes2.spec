@@ -1,6 +1,6 @@
 %define _dname	%(echo %{name} | cut -d- -f1)
 Summary:	Pack of themes for pekwm
-Summary(pl):	Zestaw motywÛw dla pekwm
+Summary(pl.UTF-8):   Zestaw motyw√≥w dla pekwm
 Name:		pekwm-themes2
 Version:	1.0
 Release:	1
@@ -32,14 +32,14 @@ KDE2 -  George J. De Bruin <SoundChaser@myrealbox.com>
 shade-blank - Tomas Green <green@green.homelinux.net>
 True - regret <trueregret@yahoo.se>
 
-%description -l pl
-23 Ounces of Glass - Orygina≥ zrobiony przez: pixelhead, zaadaptowany przez Tilman Sauerbeck <tilman@code-monkey.de>
-Glacier - Orygina≥ zrobiony przez: Glacier, zaadaptowany przez cnx <ciano@medgen.univr.it>
-Lave -  Orygina≥ zrobiony przez: pixelhead, zaadaptowany przez Joshua Bearda <josh@hewbert.com>
+%description -l pl.UTF-8
+23 Ounces of Glass - Orygina≈Ç zrobiony przez: pixelhead, zaadaptowany przez Tilman Sauerbeck <tilman@code-monkey.de>
+Glacier - Orygina≈Ç zrobiony przez: Glacier, zaadaptowany przez cnx <ciano@medgen.univr.it>
+Lave -  Orygina≈Ç zrobiony przez: pixelhead, zaadaptowany przez Joshua Bearda <josh@hewbert.com>
 QNX-Orange - Joshua Beard <josh@hewbert.com>
-Sedation - Orygina≥ zrobiony przez: pixelmoose, zaadaptowany przez Joshua Bearda <josh@hewbert.com>
+Sedation - Orygina≈Ç zrobiony przez: pixelmoose, zaadaptowany przez Joshua Bearda <josh@hewbert.com>
 adept-t - Tomas Green <green@green.homelinux.net>
-Atlantique - Orygina≥ blueCrux, zaadaptowany przez Xumerle Luciano
+Atlantique - Orygina≈Ç blueCrux, zaadaptowany przez Xumerle Luciano
 bb-nyz -  Werner Hartnagel <werner@halesoft.de>
 blueCrux - madKOT <mad_kot@mail.ru>
 bluish -  tompen <tompen@tompa.homelinux.net>
