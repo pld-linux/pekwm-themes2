@@ -1,6 +1,6 @@
 %define _dname	%(echo %{name} | cut -d- -f1)
 Summary:	Pack of themes for pekwm
-Summary(pl.UTF-8):   Zestaw motywów dla pekwm
+Summary(pl.UTF-8):	Zestaw motywów dla pekwm
 Name:		pekwm-themes2
 Version:	1.0
 Release:	1
